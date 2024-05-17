@@ -2,14 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
 }
 
 :root {
     --main-background:#f5d0fe;
     --text-color:#4a044e;
+    --nav-color:#7F525A;
 }
 
 body {
     background: var(--main-background);
     color: var(--text-color);
+    height: 100svh;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+nav {
+    background-color: #7F525A;
+    width: fit-content;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+a {
+    text-decoration: #4a044e;
+}
+
+a:hover {
+    text-decoration: none;
 }
